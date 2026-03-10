@@ -47,6 +47,7 @@ std::unordered_map<int16_t, std::pair<u8, bool>> allowedStarFlags = {
 bool shouldPopUpOpen = false;
 bool shouldAllowAllStars = false;
 bool shouldAllowEdit = false;
+int removeMe = 0;
 RandoCheckId popUpId = RC_UNKNOWN;
 std::map<RandoItemId, const char*> objectMap = {
     { RI_COIN_BLUE, "Blue Coin Icon" },
